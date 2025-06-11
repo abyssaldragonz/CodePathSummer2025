@@ -1,62 +1,74 @@
 [
     {
-        "name": "Lunar New Year Parade",
-        "description": "",
-        "link": "https://ccc-foundation.org/lunar-new-year-parade/"
-    },
-    {
-        "name": "Dragon Boat Race",
-        "description": "",
-        "link": "https://ccc-foundation.org/dragon-boat-race-for-literacy/"
-    },
-    {
-        "name": "Summer Fair",
-        "description": "",
-        "link": "https://ccc-foundation.org/summer-fair/"
-    },
-    {
-        "name": "5k and Youth Run",
-        "description": "",
-        "link": "https://www.chinatown5k.org/"
-    },
-    {
-        "name": "Miss Chinatown Chicago Paegant",
-        "description": "",
-        "link": "https://www.chicagochinatown.org/GALA"
-    },
-    {
-        "name": "CMAA Red Party",
-        "description": "",
-        "link": "https://www.chinesemutualaid.org/2025-red-party"
-    },
-    {
-        "name": "Dim Sum 5k/10k & Kids Dash",
-        "description": "",
-        "link": "https://www.dimsum5k.com/"
-    },
-    {
-        "name": "Umbrella Arts Festival",
-        "description": "",
-        "link": "https://www.evanstonaspa.org/umbrella-arts-festival-2025"
-    },
-    {
         "name": "New Year Dumpling Making Dinner",
-        "description": "",
+        "description": "Family event to practice making dumplings and enjoy a traditional Chinese lion dance in celebration of Chinese New Year",
+        "date": "January 25, 2025",
         "link": "https://chicagocci.com/our-products-2/chinese-new-year-celebration/"
     },
     {
-        "name": "AANHPI Community Festival",
-        "description": "",
-        "link": "https://auroratest.my.canva.site/gfef#aanhpi-festival"
-    },
-    {
-        "name": "MWRD AAPI Heritage Month Celebration",
-        "description": "",
-        "link": "https://www.chicagoasiannetwork.com/event/mwrds-asian-american-and-pacific-islander-heritage-month-celebration"
+        "name": "Chinatown Lunar New Year Parade",
+        "description": "Parade celebrating Lunar New Year, featuring traditional dragon and lion dancing teams, colorful floats, marching bands and marching groups.",
+        "date": "February 9, 2025",
+        "link": "https://ccc-foundation.org/lunar-new-year-parade/"
     },
     {
         "name": "Cultural Voices Luncheon",
-        "description": "",
+        "description": "Luncheon to come together as a community, and tell stories to celebrate the legacy of culture in the past, present, and future",
+        "date": "May 19, 2025",
         "link": "https://e.givesmart.com/events/I6f/"
+    },
+    {
+        "name": "MWRD AAPI Heritage Month Celebration",
+        "description": "Celebration of AAPI Month with MWRD focusing on the theme of a legacy of leadership and resilience",
+        "date": "May 22, 2025 ",
+        "link": "https://www.chicagoasiannetwork.com/event/mwrds-asian-american-and-pacific-islander-heritage-month-celebration"
+    },
+    {
+        "name": "AANHPI Community Festival",
+        "description": "Community festival in celebration of Asian American, Native Hawaiian, and Pacific Islander cultures",
+        "date": "May 24, 2025",
+        "link": "https://auroratest.my.canva.site/gfef#aanhpi-festival"
+    },
+    {
+        "name": "Umbrella Arts Festival",
+        "description": "Festival in celebration of Asian American history, culture, and art, using umbrellas to symbolize the Asian American diaspora",
+        "date": "May 31, 2025",
+        "link": "https://www.evanstonaspa.org/umbrella-arts-festival-2025"
+    },
+    {
+        "name": "CMAA Red Party",
+        "description": "A vibrant AAPI men's fashion show bringing together culture, creativity, and community",
+        "date": "June 14th, 2025",
+        "link": "https://www.chinesemutualaid.org/2025-red-party"
+    },
+    {
+        "name": "Chinatown Dragon Boat Race",
+        "description": "Chinese dragon boat race, where 32 dragon boat race teams will compete on the south branch of the Chicago River.",
+        "date": "June 21, 2025",
+        "link": "https://ccc-foundation.org/dragon-boat-race-for-literacy/"
+    },
+    {
+        "name": "5k and Youth Run",
+        "description": "Race course on a scenic journey through the Chinatown neighborhood, uniting the community, celebrating heritage, and inspiring new generations of runners",
+        "date": "July 19, 2025",
+        "link": "https://www.chinatown5k.org/"
+    },
+    {
+        "name": "Chinatown Summer Fair",
+        "description": "Outdoor fair in celebration of Asian beauty, culture, food, art and music",
+        "date": "July 26-27, 2025",
+        "link": "https://ccc-foundation.org/summer-fair/"
+    },
+    {
+        "name": "Dim Sum 5k/10k & Kids Dash",
+        "description": "Race, fundraiser and community event highlighting the diversity of the Uptown neighborhood, raising money for the community",
+        "date": "August 2, 2025",
+        "link": "https://www.dimsum5k.com/"
+    },
+    {
+        "name": "Miss Chinatown Chicago Paegant",
+        "description": "Major paegant and fundraising event celebrating and uniting the largest gathering of Chinese and American business leaders",
+        "date": "",
+        "link": "https://www.chicagochinatown.org/GALA"
     }
 ]

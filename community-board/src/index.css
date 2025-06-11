@@ -2,10 +2,10 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background: linear-gradient(#2A7B9B, #101d29);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -31,23 +31,26 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3.8em;
   line-height: 1.1;
+  color: #000000;
+  text-decoration: red underline double;
 }
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 5px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #300000;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #213547;
+  background-color: #f25353;
 }
 button:focus,
 button:focus-visible {
@@ -67,7 +70,36 @@ button:focus-visible {
   }
 }
 
-.Card {
-  background-color: #535bf2a0;
+.EventsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0% 10%;
+}
 
+.Card {
+  background-color: #ae0000;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 25rem;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+h4 {
+  color: #f9f9f9;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 1rem;
+  color:#101d29;
+  line-height: 0
 }

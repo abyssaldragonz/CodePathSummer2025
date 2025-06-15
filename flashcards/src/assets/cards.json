@@ -1,80 +1,99 @@
 [
     {
+        "id": "0", 
         "question": "What animal has three hearts?",
         "answer": ["octopus"],
         "difficulty": ""
     },
     {
+        "id": "1", 
         "question": "What animal has a blue tongue?",
         "answer": ["giraffe"],
         "difficulty": ""
     },
     {
+        "id": "2", 
+        "question": "What animal eats poisonous leaves in Australia",
+        "answer": ["koala"],
+        "difficulty": ""
+    },
+    {
+        "id": "3", 
+        "question": "What animal is this?",
+        "image": "./animal3.webp",
+        "answer": ["okapi"],
+        "difficulty": ""
+    },
+    {
+        "id": "4", 
+        "question": "What animal can travel approximately 240 miles per hour?",
+        "answer": ["peregrine falcon"],
+        "difficulty": ""
+    },
+    {
+        "id": "5", 
+        "question": "What animal is this?",
+        "image": "./animal5.webp",
+        "answer": ["aardwolf"],
+        "difficulty": ""
+    },
+    {
+        "id": "6", 
+        "question": "What animal is this?",
+        "answer": ["maned wolf"],
+        "image": "./animal6.webp",
+        "difficulty": ""
+    },
+    {
+        "id": "7", 
+        "question": "What male animal gives birth?",
+        "answer": ["seahorse"],
+        "difficulty": ""
+    },
+    {
+        "id": "8", 
+        "question": "What animal uses deep sea hydrothermic vents to incorporate iron sulphides into its shell?",
+        "answer": ["volcano snail", "scaly-foot gastropod"],
+        "difficulty": ""
+    },
+    {
+        "id": "9", 
+        "question": "What is the loudest animal in the world?",
+        "answer": ["sperm whale"],
+        "difficulty": ""
+    },
+    {
+        "id": "10", 
         "question": "",
         "answer": [""],
         "difficulty": ""
     },
     {
+        "id": "11", 
         "question": "",
         "answer": [""],
         "difficulty": ""
     },
     {
+        "id": "12", 
         "question": "",
         "answer": [""],
         "difficulty": ""
     },
     {
+        "id": "13", 
         "question": "",
         "answer": [""],
         "difficulty": ""
     },
     {
+        "id": "14", 
         "question": "",
         "answer": [""],
         "difficulty": ""
     },
     {
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
-    },
-    {
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
-    },
-    {
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
-    },
-    {
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
-    },
-    {
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
-    },
-    {
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
-    },
-    {
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
-    },
-    {
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
-    },
-    {
+        "id": "15", 
         "question": "",
         "answer": [""],
         "difficulty": ""

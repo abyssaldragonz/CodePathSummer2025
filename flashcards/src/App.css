@@ -42,10 +42,38 @@
 }
 
 .Card {
-  background-color: #ae0000;
-  padding: 1rem;
+  background-color: #9ec9d9;
+  padding-bottom: 1rem;
   margin: 2rem;
   border-radius: 1rem;
-  width: 75rem;
-  height: 55rem;
+  border: 20px double #535bf2;
+  width: 40rem;
+  height: 25rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  box-shadow: 0px 22px 22px 0px rgba(0, 0, 0, 0.75);
+}
+
+.Card:hover {
+  transform: ();
+}
+
+img {
+  height: 20rem;
+}
+
+.questions {
+  margin: 1em 3em;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem
 }

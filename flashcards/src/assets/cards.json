@@ -3,99 +3,155 @@
         "id": "0", 
         "question": "What animal has three hearts?",
         "answer": ["octopus"],
-        "difficulty": ""
+        "difficulty": "medium"
     },
     {
         "id": "1", 
         "question": "What animal has a blue tongue?",
         "answer": ["giraffe"],
-        "difficulty": ""
+        "difficulty": "medium"
     },
     {
         "id": "2", 
-        "question": "What animal eats poisonous leaves in Australia",
+        "question": "What animal eats poisonous leaves in Australia?",
         "answer": ["koala"],
-        "difficulty": ""
+        "difficulty": "medium"
     },
     {
         "id": "3", 
         "question": "What animal is this?",
         "image": "./animal3.webp",
         "answer": ["okapi"],
-        "difficulty": ""
+        "difficulty": "hard"
     },
     {
         "id": "4", 
         "question": "What animal can travel approximately 240 miles per hour?",
         "answer": ["peregrine falcon"],
-        "difficulty": ""
+        "difficulty": "medium"
     },
     {
         "id": "5", 
         "question": "What animal is this?",
         "image": "./animal5.webp",
         "answer": ["aardwolf"],
-        "difficulty": ""
+        "difficulty": "hard"
     },
     {
         "id": "6", 
         "question": "What animal is this?",
         "answer": ["maned wolf"],
         "image": "./animal6.webp",
-        "difficulty": ""
+        "difficulty": "medium"
     },
     {
         "id": "7", 
         "question": "What male animal gives birth?",
         "answer": ["seahorse"],
-        "difficulty": ""
+        "difficulty": "medium"
     },
     {
         "id": "8", 
         "question": "What animal uses deep sea hydrothermic vents to incorporate iron sulphides into its shell?",
         "answer": ["volcano snail", "scaly-foot gastropod"],
-        "difficulty": ""
+        "difficulty": "hard"
     },
     {
         "id": "9", 
         "question": "What is the loudest animal in the world?",
         "answer": ["sperm whale"],
-        "difficulty": ""
+        "difficulty": "medium"
     },
     {
         "id": "10", 
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
+        "question": "What is the only mammal that can fly?",
+        "answer": ["bat"],
+        "difficulty": "easy"
     },
     {
         "id": "11", 
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
+        "question": "What is the only mammal that can lay eggs?",
+        "answer": ["platypus"],
+        "difficulty": "easy"
     },
     {
         "id": "12", 
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
+        "question": "What is the fastest land animal?",
+        "answer": ["cheetah"],
+        "difficulty": "easy"
     },
     {
         "id": "13", 
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
+        "question": "What is the only bird that can fly backwards?",
+        "answer": ["hummingbird"],
+        "difficulty": "easy"
     },
     {
         "id": "14", 
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
+        "question": "What animal is this?",
+        "answer": ["mantis shrimp"],
+        "image": "./animal14.webp",
+        "difficulty": "hard"
     },
     {
         "id": "15", 
-        "question": "",
-        "answer": [""],
-        "difficulty": ""
+        "question": "What animal is pink due to their diet of brine shrimp?",
+        "answer": ["flamingo"],
+        "difficulty": "easy"
+    },
+    {
+        "id": "16", 
+        "question": "What animal has black skin and white fur?",
+        "answer": ["polar bear"],
+        "difficulty": "easy"
+    },
+    {
+        "id": "17", 
+        "question": "What mammal's eyes turns blue in the winter and golden in the summer?",
+        "answer": ["reindeer"],
+        "difficulty": "hard"
+    },
+    {
+        "id": "18", 
+        "question": "What creature can withstand the vacumn of space?",
+        "answer": ["tardigrade", "water bear"],
+        "difficulty": "hard"
+    },
+    {
+        "id": "19", 
+        "question": "What dog breed has a black tongue?",
+        "answer": ["chow chow", "shar pei"],
+        "difficulty": "hard"
+    },
+    {
+        "id": "20", 
+        "question": "What extinct bird uses gizzard stones to digest their food?",
+        "answer": ["dodo bird", "dodo"],
+        "difficulty": "medium"
+    },
+    {
+        "id": "21", 
+        "question": "What animal is this?",
+        "image": "./animal21.webp",
+        "answer": ["aye aye"],
+        "difficulty": "medium"
+    },
+    {
+        "id": "22", 
+        "question": "What animal is most commonly known to be susceptible to the cordyceps fungus?",
+        "answer": ["ant"],
+        "difficulty": "medium"
+    },
+    {
+        "id": "23", 
+        "question": "What animal is an invasive species affecting the Mississippi River?",
+        "answer": ["asian carp"],
+        "difficulty": "medium"
+    },
+    {
+        "id": "24", 
+        "question": "What animal is known for their ability to regenerate and is native to Mexico?",
+        "answer": ["axolotl"],
+        "difficulty": "medium"
     }
 ]

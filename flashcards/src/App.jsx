@@ -5,10 +5,25 @@ import React, {useState} from 'react'
 
 export default function App() {
   const [cardState, setCardState] = useState(0)
+  const [userStreak, setStreak] = useState(0)
   
+  function prevCard() {
+    setCardState(cardState-1)
+  }
+
   function nextCard() {
-    setCardState(Math.floor(Math.random() * cardInfo.length))
-}
+    setCardState(cardState+1)
+  }
+
+  function shuffle() {
+    for (var i = cardInfo.length-1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = cardInfo[i];
+      cardInfo[i] = cardInfo[j];
+      cardInfo[j] = temp;
+    }
+    setCardState(0)
+  }
 
   return (
     <div className="App">
@@ -20,9 +35,13 @@ export default function App() {
       <h3>Total Cards: {cardInfo.length}</h3>
       {/* list of cards is stored in a json file */}
       <Card key={cardState} props={cardInfo.find(item => item.id == cardState)} />
+      <div className="GuessContainer">
+
+      </div>
       <div className="ButtonContainer">
         <button onClick={nextCard}>←</button>
         <button onClick={nextCard}>→</button>
+        <button onClick={shuffle}>⟳→</button>
       </div>
     </div>
   )

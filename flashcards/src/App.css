@@ -77,3 +77,40 @@ img {
   align-items: center;
   gap: 5rem
 }
+
+.GuessContainer {
+  display: flex;
+  margin: 1rem;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.userGuess {
+  width: 50%; 
+  margin: 0.5rem;
+  color: aliceblue;
+  background-color: #535bf2;
+  border-width: 2px;
+  border-style: none;
+  height: 1.5rem;
+  padding: 0.5rem;
+  border: solid black
+}
+
+.correctGuess {
+  border-style: solid;
+  border-color: #bbf8c9;
+  background-color: #28eb76
+}
+
+.incorrectGuess {
+  border-style: solid;
+  border-color: #f8bbd0;
+  background-color: #e63946;
+}
+
+::placeholder {
+  color: rgb(158, 201, 217);
+  opacity: 1;
+}

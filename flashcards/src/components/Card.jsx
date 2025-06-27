@@ -1,22 +1,26 @@
 import React, {useState} from 'react'
 
-export default function Card({cardProp, userGuess}) {
+export default function Card({cardProp, userGuess, recallFunc, lock}) {
     const [cardState, setCardState] = useState(-1)
     let bg = "None"
 
     function changeState() {
-        setCardState(cardState * -1)
+        if (lock) {
+            setCardState(cardState * -1)
+            checkAnswer()
+        }
     }
 
     function checkAnswer() {
-        userGuess = lower(userGuess)
-        for (s in cardProp.answer)
+        userGuess = userGuess.toLowerCase()
+        var isCorrect = false
+        for (var s in cardProp.answer)
         {
             if ((cardProp.answer).indexOf(userGuess)!=-1 || userGuess.indexOf(cardProp.answer)!=-1)
-                console.log("correct")
-            else
-                console.log("incorrect")
-        }   
+                isCorrect = true;
+        }
+
+        {recallFunc(isCorrect)}
     }
 
     return (
@@ -30,7 +34,7 @@ export default function Card({cardProp, userGuess}) {
                 <img src={cardProp.image}></img>
             }
 
-            {/* otherwise, show answer */}
+            {/* otherwise, user clicked so show answer */}
             { (cardState == 1) &&
                 <h2>{cardProp.answer[0]}</h2>
             }

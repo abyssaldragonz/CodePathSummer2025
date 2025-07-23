@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Row from './components/Row'
+import Sidebar from './components/Sidebar'
+
 const API_KEY = import.meta.env.VITE_APP_ACCESS_KEY;
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [START_DATE, setStart] = useState("2025-09-07");
+  
+  const [sidebarInfo, setSidebar] = useState(null)
   
   const [hazardCount, setHazard] = useState(-1)
   const [sentryCount, setSentry] = useState(-1)
@@ -63,7 +67,7 @@ function App() {
 
 
   return (
-    <>
+    <div style={{display: 'flex', gap: '10rem', width: '100%', margin: '0 50rem'}}>
       <div>
         <h1>Data Dashboard</h1>
 
@@ -102,9 +106,10 @@ function App() {
             <h4> </h4>
             <h4>ID</h4>
             <h4> </h4>
-            <h4> </h4>
             <h4>Hazardous?</h4>
             <h4>Sentry Object?</h4>
+            <h4>View Details</h4>
+            <h4>Database Lookup</h4>
         </div>
 
         <hr />
@@ -120,11 +125,14 @@ function App() {
           )
           .map((event, objectData) => (
 				  <div className="row">
-            <Row key={event[1].id} prop={event[1]} />
+            <Row key={event[1].id} prop={event[1]} functionCallback={setSidebar} />
           </div>
 			  ))}
       </div>
-    </>
+      {
+        sidebarInfo && <Sidebar prop={sidebarInfo} />
+      }
+    </div>
   )
 }
 

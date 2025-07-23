@@ -4,7 +4,7 @@ Submitted by: **Josephine Lee**
 
 This web app: **searches for data about near Earth asteroids with a filtering system about whether they are a potential hazardous object and/or a sentry object**
 
-Time spent: **9** hours spent in total
+Time spent: **11** hours spent in total
 
 ## Required Features
 ### PART ONE

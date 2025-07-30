@@ -34,9 +34,36 @@
 }
 
 .card {
+  width: 20rem;
+  height: 35rem;
+  border: solid white 1em;
+  border-radius: 2rem;
   padding: 2em;
+  margin: 5rem;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin: auto;
+  justify-content: center;
+}
+
+.cardText {
+  background-color: slategrey;
+  margin: 1rem;
+  padding: 0.5rem 1rem; 
+  border-radius: 0.5rem;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }

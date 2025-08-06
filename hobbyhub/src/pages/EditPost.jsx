@@ -36,7 +36,7 @@ export default function EditPost({data}) {
             .from('HobbyHub')
             .update({title: newPost.title, author: newPost.author, content: newPost.content, image: newPost.image})
             .eq('id', id)
-        window.location = "/"
+        window.location = `/post/${prop.id}`
     }
 
     const deletePost = async(event) => {

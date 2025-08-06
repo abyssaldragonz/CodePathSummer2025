@@ -20,9 +20,9 @@ export default function ViewPosts(props) {
             .select()
             .order("creation_time", { ascending: false })
 
-            // set state of posts
-            setPosts(data)
-            setSearchPosts(data)
+        // set state of posts
+        setPosts(data)
+        setSearchPosts(data)
     }
 
     function handleSearch(param) {

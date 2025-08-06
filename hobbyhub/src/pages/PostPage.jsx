@@ -73,14 +73,14 @@ export default function PostPage({data}) {
             <button onClick={updateCount}>👍{count} upvotes👍</button>
 
             { prop.comments ?
-                    <div>
-                        <h2>Comments!</h2>
-                        {prop.comments.map((comm, index) => 
-                            <p key={index} className="comments">{comm}</p>
-                        )}
-                    </div>
-                    : 
-                    <h2>{'No Comments Yet 💔'}</h2>
+                <div>
+                    <h2>Comments!</h2>
+                    {prop.comments.map((comm, index) => 
+                        <p key={index} className="comments">{comm}</p>
+                    )}
+                </div>
+                : 
+                <h2>{'No Comments Yet 💔'}</h2>
             }
 
             <input className='comments' style={{backgroundColor: 'aliceblue', color: "black"}} type="text" id="comment" name="comment" placeholder='Leave a Comment' onChange={handleChange} />

@@ -4,7 +4,7 @@ Submitted by: **Josephine Lee**
 
 This web app: **is a mini social media platform for users to share their hobbies!**
 
-Time spent: **15** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
@@ -69,7 +69,16 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![demo](demo.gif)
+
+Feed & Filtering
+![feed](feed.gif)
+
+Post Creation & Editing & Interaction
+![post](post.gif)
+
+
+<!-- <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> -->
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -77,6 +86,8 @@ GIF created with ...
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
+- OBS 
+- Ezgif
 
 ## Notes
 

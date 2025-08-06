@@ -1,15 +1,28 @@
-import {useState} from 'react'
+import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { supabase } from '../client'
 
 export default function EditPost({data}) {
-
     const {id} = useParams()
-    const [post, setPost] = useState({id: null, title: "", author: "", description: ""})
+    const [prop, setProp] = useState(null)
+    const [newPost, setNewPost] = useState(null)
 
+    useEffect(() => {
+        console.log(data)
+        const foundItem = Object.values(data).find(item => item.id == id)
+        console.log(foundItem)
+        setProp(foundItem)
+        prop ? 
+            setNewPost({title: data.title, author: data.author, content: data.content, image: data.image})
+            :
+            null
+    },
+    [data])
+
+    
     const handleChange = (event) => {
         const {name, value} = event.target
-        setPost( (prev) => {
+        setNewPost( (prev) => {
             return {
                 ...prev,
                 [name]:value,
@@ -17,23 +30,47 @@ export default function EditPost({data}) {
         })
     }
 
-    return (
+    const updatePost = async(event) => {
+        event.preventDefault()
+        await supabase
+            .from('HobbyHub')
+            .update({title: newPost.title, author: newPost.author, content: newPost.content, image: newPost.image})
+            .eq('id', id)
+        window.location = "/"
+    }
+
+    const deletePost = async(event) => {
+        event.preventDefault()
+        await supabase
+            .from('HobbyHub')
+            .delete()
+            .eq('id', id)
+        window.location = "/"
+    }
+
+    return prop && (
         <div>
             <form>
-                <label htmlFor="title">Title</label> <br />
-                <input type="text" id="title" name="title" value={post.title} onChange={handleChange} /><br />
+                <input style={{width: '50%'}} type="text" defaultValue={prop.title} id="title" name="title" placeholder='Title' onChange={handleChange} />
+                <br />
+                <br />
+
+                <input style={{width: '50%'}} type="text" defaultValue={prop.author} id="author" name="author" placeholder='Author (optional)' onChange={handleChange} />
+                <br />
+                <br />
+
+                <textarea defaultValue={prop.content} rows="25" cols="100" id="content" name="content" placeholder='Content (optional)' onChange={handleChange} />
+                <br />
+                <br />
+
+                <input style={{width: '75%'}} type="text" defaultValue={prop.image} id="image" name="image" placeholder='Image URL (optional)' onChange={handleChange} />
+                <br />
                 <br/>
 
-                <label htmlFor="author">Author</label><br />
-                <input type="text" id="author" name="author" value={post.author} onChange={handleChange} /><br />
-                <br/>
-
-                <label htmlFor="description">Description</label><br />
-                <textarea rows="5" cols="50" id="description" name="description" value={post.description} onChange={handleChange} >
-                </textarea>
-                <br/>
-                <input type="submit" value="Submit" />
-                <button className="deleteButton">Delete</button>
+                <div style={{display: 'flex', gap: '2rem', justifyContent: 'center'}}>
+                    <button onClick={updatePost}>Edit Post</button>
+                    <button onClick={deletePost}>Delete Post</button>
+                </div>
             </form>
         </div>
     )

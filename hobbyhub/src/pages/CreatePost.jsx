@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { supabase } from '../client'
 
 export default function CreatePost() {
-    const [newPost, setPost] = useState({title: "", author: "Anonymous", content: "", image: "", upvotes: 0, comments: {}})
+    const [newPost, setPost] = useState({title: "", author: "Anonymous", content: "", image: "", upvotes: 0, comments: []})
 
     const handleChange = (event) => {
         const {name, value} = event.target
@@ -27,19 +27,19 @@ export default function CreatePost() {
     return (
         <div className='createPost'>
             <form>
-                <input type="text" id="title" name="title" placeholder='Title' onChange={handleChange} />
+                <input style={{width: '50%'}} type="text" id="title" name="title" placeholder='Title' onChange={handleChange} />
                 <br />
                 <br />
 
-                <input type="text" id="author" name="author" placeholder='Author (optional)' onChange={handleChange} />
+                <input style={{width: '50%'}} type="text" id="author" name="author" placeholder='Author (optional)' onChange={handleChange} />
                 <br />
                 <br />
 
-                <textarea rows="5" cols="50" id="content" name="content" placeholder='Content (optional)' onChange={handleChange} />
+                <textarea rows="25" cols="100" id="content" name="content" placeholder='Content (optional)' onChange={handleChange} />
                 <br />
                 <br />
 
-                <input type="text" id="image" name="image" placeholder='Image URL (optional)' onChange={handleChange} />
+                <input style={{width: '75%'}} type="text" id="image" name="image" placeholder='Image URL (optional)' onChange={handleChange} />
                 <br />
                 <br/>
 

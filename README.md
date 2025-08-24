@@ -1,8 +1,7 @@
 # CodePathSummer2025
-<sup> Easy Page View Link <a href="" target="_blank">here</a>.
 
 ## 🚀 About
-Projects and Activities for CodePath courses Spring 2025. Specifically for courses WEB102 (advanced web development). <br>
+Projects and Activities for CodePath courses Spring 2025. Specifically for courses WEB102 (advanced web development). Created using React + Vite. <br>
 
 ## 📜 Documentation
 ```
@@ -14,7 +13,7 @@ Projects and Activities for CodePath courses Spring 2025. Specifically for cours
 ├── README.md
 ```
 * `./labs` folder holds any class session activities and labs done for WEB102 <br>
-* `./projects` folder holds the individual projects done for WEB101 <br>
+* `./projects` folder holds the individual projects done for WEB102 <br>
 <br>
 
 ## 🔔 Credits

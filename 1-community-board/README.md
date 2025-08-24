@@ -1,6 +1,6 @@
-# Web Development Project 1 - Community Board
+# Web Development Project 1 - *Community Board*
 
-Submitted by: Josephine Lee
+Submitted by: **Josephine Lee**
 
 This web app: **Community board to showcase events in 2025 around Chicago's Chinatown celebrating AAPI culture and heritage.**
 
